@@ -7,12 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Node
-node_modules/
+node_modules
 dist
 dist-ssr
-
-# Config
 *.local
 
 # Editor directories and files
@@ -25,19 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Extra (Java, Python, Windows/Mac)
-*.class
-*.py[cod]
-*.jar
-target/
-Thumbs.db
-*.app
-*.exe
-*.war
-*.mp4
-*.tiff
-*.avi
-*.flv
-*.mov
-*.wmv

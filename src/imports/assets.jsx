@@ -1,0 +1,1 @@
+export { default as fallbackImage } from '../assets/fallbackimage.png';

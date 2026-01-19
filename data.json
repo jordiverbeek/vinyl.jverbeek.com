@@ -1,0 +1,391 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "category": "Rock",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+    },
+    {
+      "id": 2,
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "category": "Pop",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
+    },
+    {
+      "id": 3,
+      "title": "Nevermind",
+      "artist": "Nirvana",
+      "category": "Grunge",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album4/300/300"
+    },
+    {
+      "id": 5,
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album5/300/300"
+    },
+    {
+      "id": 6,
+      "title": "Random Access Memories",
+      "artist": "Daft Punk",
+      "category": "Electronic",
+      "image": "https://picsum.photos/seed/album6/300/300"
+    },
+    {
+      "id": 7,
+      "title": "The Wall",
+      "artist": "Pink Floyd",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album7/300/300"
+    },
+    {
+      "id": 8,
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album8/300/300"
+    },
+    {
+      "id": 9,
+      "title": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album9/300/300"
+    },
+    {
+      "id": 10,
+      "title": "Born in the U.S.A.",
+      "artist": "Bruce Springsteen",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album10/300/300"
+    },
+    {
+      "id": 11,
+      "title": "OK Computer",
+      "artist": "Radiohead",
+      "category": "Alternative",
+      "image": "https://picsum.photos/seed/album11/300/300"
+    },
+    {
+      "id": 12,
+      "title": "Kid A",
+      "artist": "Radiohead",
+      "category": "Alternative",
+      "image": "https://picsum.photos/seed/album12/300/300"
+    },
+    {
+      "id": 13,
+      "title": "1989",
+      "artist": "Taylor Swift",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album13/300/300"
+    },
+    {
+      "id": 14,
+      "title": "DAMN.",
+      "artist": "Kendrick Lamar",
+      "category": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album14/300/300"
+    },
+    {
+      "id": 15,
+      "title": "To Pimp a Butterfly",
+      "artist": "Kendrick Lamar",
+      "category": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album15/300/300"
+    },
+    {
+      "id": 16,
+      "title": "The Eminem Show",
+      "artist": "Eminem",
+      "category": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album16/300/300"
+    },
+    {
+      "id": 17,
+      "title": "Graduation",
+      "artist": "Kanye West",
+      "category": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album17/300/300"
+    },
+    {
+      "id": 18,
+      "title": "Discovery",
+      "artist": "Daft Punk",
+      "category": "Electronic",
+      "image": "https://picsum.photos/seed/album18/300/300"
+    },
+    {
+      "id": 19,
+      "title": "Homework",
+      "artist": "Daft Punk",
+      "category": "Electronic",
+      "image": "https://picsum.photos/seed/album19/300/300"
+    },
+    {
+      "id": 20,
+      "title": "AM",
+      "artist": "Arctic Monkeys",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album20/300/300"
+    },
+    {
+      "id": 21,
+      "title": "Currents",
+      "artist": "Tame Impala",
+      "category": "Psychedelic",
+      "image": "https://picsum.photos/seed/album21/300/300"
+    },
+    {
+      "id": 22,
+      "title": "Rumours",
+      "artist": "Fleetwood Mac",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album22/300/300"
+    },
+    {
+      "id": 23,
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album23/300/300"
+    },
+    {
+      "id": 24,
+      "title": "Bad",
+      "artist": "Michael Jackson",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album24/300/300"
+    },
+    {
+      "id": 25,
+      "title": "Revolver",
+      "artist": "The Beatles",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album25/300/300"
+    },
+    {
+      "id": 26,
+      "title": "The Joshua Tree",
+      "artist": "U2",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album26/300/300"
+    },
+    {
+      "id": 27,
+      "title": "Appetite for Destruction",
+      "artist": "Guns N’ Roses",
+      "category": "Rock",
+      "image": "https://picsum.photos/seed/album27/300/300"
+    },
+    {
+      "id": 28,
+      "title": "Metallica",
+      "artist": "Metallica",
+      "category": "Metal",
+      "image": "https://picsum.photos/seed/album28/300/300"
+    },
+    {
+      "id": 29,
+      "title": "Master of Puppets",
+      "artist": "Metallica",
+      "category": "Metal",
+      "image": "https://picsum.photos/seed/album29/300/300"
+    },
+    {
+      "id": 30,
+      "title": "Ride the Lightning",
+      "artist": "Metallica",
+      "category": "Metal",
+      "image": "https://picsum.photos/seed/album30/300/300"
+    },
+    {
+      "id": 31,
+      "title": "Paranoid",
+      "artist": "Black Sabbath",
+      "category": "Metal",
+      "image": "https://picsum.photos/seed/album31/300/300"
+    },
+    {
+      "id": 32,
+      "title": "Nevermind the Bollocks",
+      "artist": "Sex Pistols",
+      "category": "Punk",
+      "image": "https://picsum.photos/seed/album32/300/300"
+    },
+    {
+      "id": 33,
+      "title": "London Calling",
+      "artist": "The Clash",
+      "category": "Punk",
+      "image": "https://picsum.photos/seed/album33/300/300"
+    },
+    {
+      "id": 34,
+      "title": "Is This It",
+      "artist": "The Strokes",
+      "category": "Indie",
+      "image": "https://picsum.photos/seed/album34/300/300"
+    },
+    {
+      "id": 35,
+      "title": "Melodrama",
+      "artist": "Lorde",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album35/300/300"
+    },
+    {
+      "id": 36,
+      "title": "After Hours",
+      "artist": "The Weeknd",
+      "category": "R&B",
+      "image": "https://picsum.photos/seed/album36/300/300"
+    },
+    {
+      "id": 37,
+      "title": "Blonde",
+      "artist": "Frank Ocean",
+      "category": "R&B",
+      "image": "https://picsum.photos/seed/album37/300/300"
+    },
+    {
+      "id": 38,
+      "title": "Channel Orange",
+      "artist": "Frank Ocean",
+      "category": "R&B",
+      "image": "https://picsum.photos/seed/album38/300/300"
+    },
+    {
+      "id": 39,
+      "title": "Good Kid, M.A.A.D City",
+      "artist": "Kendrick Lamar",
+      "category": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album39/300/300"
+    },
+    {
+      "id": 40,
+      "title": "Astroworld",
+      "artist": "Travis Scott",
+      "category": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album40/300/300"
+    },
+    {
+      "id": 41,
+      "title": "Fearless",
+      "artist": "Taylor Swift",
+      "category": "Country",
+      "image": "https://picsum.photos/seed/album41/300/300"
+    },
+    {
+      "id": 42,
+      "title": "Golden Hour",
+      "artist": "Kacey Musgraves",
+      "category": "Country",
+      "image": "https://picsum.photos/seed/album42/300/300"
+    },
+    {
+      "id": 43,
+      "title": "Blue",
+      "artist": "Joni Mitchell",
+      "category": "Folk",
+      "image": "https://picsum.photos/seed/album43/300/300"
+    },
+    {
+      "id": 44,
+      "title": "Harvest",
+      "artist": "Neil Young",
+      "category": "Folk",
+      "image": "https://picsum.photos/seed/album44/300/300"
+    },
+    {
+      "id": 45,
+      "title": "In Rainbows",
+      "artist": "Radiohead",
+      "category": "Alternative",
+      "image": "https://picsum.photos/seed/album45/300/300"
+    },
+    {
+      "id": 46,
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album46/300/300"
+    },
+    {
+      "id": 47,
+      "title": "A Rush of Blood to the Head",
+      "artist": "Coldplay",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album47/300/300"
+    },
+    {
+      "id": 48,
+      "title": "Future Nostalgia",
+      "artist": "Dua Lipa",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album48/300/300"
+    },
+    {
+      "id": 49,
+      "title": "25",
+      "artist": "Adele",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album49/300/300"
+    },
+    {
+      "id": 50,
+      "title": "21",
+      "artist": "Adele",
+      "category": "Pop",
+      "image": "https://picsum.photos/seed/album50/300/300"
+    }
+  ],
+  "forumPosts": [
+    {
+      "id": 1,
+      "author": "Jan",
+      "message": "Wat is jullie favoriete plaat?"
+    },
+    {
+      "id": 2,
+      "author": "Lisa",
+      "message": "Nieuwe persing van Radiohead is top!"
+    },
+    {
+      "id": "3",
+      "author": "Guest",
+      "message": "test"
+    },
+    {
+      "id": "4",
+      "author": "Guest",
+      "message": "test"
+    },
+    {
+      "id": "5",
+      "author": "Guest",
+      "message": "dit is vanaf de website toegevoegd"
+    },
+    {
+      "id": "6",
+      "author": "Guest",
+      "message": "dit is een test vanaf mijn localhost website"
+    },
+    {
+      "id": "7",
+      "author": "Guest",
+      "message": "Dit is een test vanaf de live website"
+    }
+  ]
+}
