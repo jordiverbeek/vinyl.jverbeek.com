@@ -1,5 +1,147 @@
 {
-  "forumPosts": [
+  "albums": [
+    {
+      "id": 1,
+      "title": "Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "categorie": "Rock",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+    },
+    {
+      "id": 2,
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "categorie": "Pop",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
+    },
+    {
+      "id": 3,
+      "title": "Nevermind",
+      "artist": "Nirvana",
+      "categorie": "Grunge",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "categorie": "Rock",
+      "image": "https://picsum.photos/seed/album4/300/300"
+    },
+    {
+      "id": 5,
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "categorie": "Rock",
+      "image": "https://picsum.photos/seed/album5/300/300"
+    },
+    {
+      "id": 6,
+      "title": "Random Access Memories",
+      "artist": "Daft Punk",
+      "categorie": "Electronic",
+      "image": "https://picsum.photos/seed/album6/300/300"
+    },
+    {
+      "id": 7,
+      "title": "The Wall",
+      "artist": "Pink Floyd",
+      "categorie": "Rock",
+      "image": "https://picsum.photos/seed/album7/300/300"
+    },
+    {
+      "id": 8,
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "categorie": "Rock",
+      "image": "https://picsum.photos/seed/album8/300/300"
+    },
+    {
+      "id": 9,
+      "title": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "categorie": "Rock",
+      "image": "https://picsum.photos/seed/album9/300/300"
+    },
+    {
+      "id": 10,
+      "title": "Born in the U.S.A.",
+      "artist": "Bruce Springsteen",
+      "categorie": "Rock",
+      "image": "https://picsum.photos/seed/album10/300/300"
+    },
+    {
+      "id": 11,
+      "title": "OK Computer",
+      "artist": "Radiohead",
+      "categorie": "Alternative",
+      "image": "https://picsum.photos/seed/album11/300/300"
+    },
+    {
+      "id": 12,
+      "title": "Kid A",
+      "artist": "Radiohead",
+      "categorie": "Alternative",
+      "image": "https://picsum.photos/seed/album12/300/300"
+    },
+    {
+      "id": 13,
+      "title": "1989",
+      "artist": "Taylor Swift",
+      "categorie": "Pop",
+      "image": "https://picsum.photos/seed/album13/300/300"
+    },
+    {
+      "id": 14,
+      "title": "DAMN.",
+      "artist": "Kendrick Lamar",
+      "categorie": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album14/300/300"
+    },
+    {
+      "id": 15,
+      "title": "To Pimp a Butterfly",
+      "artist": "Kendrick Lamar",
+      "categorie": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album15/300/300"
+    },
+    {
+      "id": 16,
+      "title": "The Eminem Show",
+      "artist": "Eminem",
+      "categorie": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album16/300/300"
+    },
+    {
+      "id": 17,
+      "title": "Graduation",
+      "artist": "Kanye West",
+      "categorie": "Hip-Hop",
+      "image": "https://picsum.photos/seed/album17/300/300"
+    },
+    {
+      "id": 18,
+      "title": "Discovery",
+      "artist": "Daft Punk",
+      "categorie": "Electronic",
+      "image": "https://picsum.photos/seed/album18/300/300"
+    },
+    {
+      "id": 19,
+      "title": "Homework",
+      "artist": "Daft Punk",
+      "categorie": "Electronic",
+      "image": "https://picsum.photos/seed/album19/300/300"
+    },
+    {
+      "id": 20,
+      "title": "AM",
+      "artist": "Arctic Monkeys",
+      "categorie": "Rock",
+      "image": "https://picsum.photos/seed/album20/300/300"
+    }
+  ],
+   "forumPosts": [
     {
       "id": 1,
       "author": "Jan",
@@ -39,21 +181,6 @@
       "id": "1768990213592",
       "author": "Floris",
       "message": "Ik ben jordi's DAGGOE"
-    },
-    {
-      "id": "1768990820002",
-      "author": "Guest",
-      "message": "test"
-    },
-    {
-      "id": "1768991194177",
-      "author": "Guest",
-      "message": "test"
-    },
-    {
-      "id": "1768991527800",
-      "author": "Guest",
-      "message": "test"
     }
   ]
 }

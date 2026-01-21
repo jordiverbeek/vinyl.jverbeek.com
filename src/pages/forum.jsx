@@ -1,51 +1,33 @@
 import { useState, useEffect, useRef } from "react";
-import { io } from "socket.io-client";
-
-// Socket naar lokale backend
-const socket = io("http://localhost:3000", { autoConnect: true });
 
 const Forum = () => {
   const [posts, setPosts] = useState([]);
   const [text, setText] = useState("");
   const bottomRef = useRef(null);
 
-  // REST fetch
   useEffect(() => {
-    fetch("http://localhost:3000/api/posts")
+    fetch("https://vinyl.jverbeek.com/api/posts")
       .then(res => res.json())
       .then(data => setPosts(data));
   }, []);
 
-  // Socket events
-  useEffect(() => {
-    socket.on("connect", () => console.log("✅ Socket connected", socket.id));
-    socket.on("initPosts", (data) => setPosts(data));
-    socket.on("newPost", (newPost) => setPosts((prev) => [...prev, newPost]));
-
-    return () => {
-      socket.off("connect");
-      socket.off("initPosts");
-      socket.off("newPost");
-    };
-  }, []);
-
   const addPost = () => {
     if (!text) return;
-    fetch("http://localhost:3000/api/posts", {
+    fetch("https://vinyl.jverbeek.com/api/posts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: text }),
     })
       .then(res => res.json())
       .then(newPost => {
-        setPosts((prev) => [...prev, newPost]);
+        setPosts([...posts, newPost]);
         setText("");
       });
   };
-
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [posts]);
+
 
   return (
     <section className="forum">
@@ -68,6 +50,7 @@ const Forum = () => {
             </div>
           ))}
           <div ref={bottomRef} />
+
         </div>
 
         <div className="forum-input">
