@@ -141,7 +141,7 @@
       "image": "https://picsum.photos/seed/album20/300/300"
     }
   ],
-   "forumPosts": [
+  "forumPosts": [
     {
       "id": 1,
       "author": "Jan",
@@ -151,36 +151,6 @@
       "id": 2,
       "author": "Lisa",
       "message": "Nieuwe persing van Radiohead is top!"
-    },
-    {
-      "id": "1768933976158",
-      "author": "Guest",
-      "message": "Wat een klote website"
-    },
-    {
-      "id": "1768989936942",
-      "author": "Floris",
-      "message": "echt een kanker website he"
-    },
-    {
-      "id": "1768989950376",
-      "author": "Floris",
-      "message": "kanker toch op"
-    },
-    {
-      "id": "1768989983224",
-      "author": "Nick",
-      "message": "floris jij bent anders geaard"
-    },
-    {
-      "id": "1768990093408",
-      "author": "Floris",
-      "message": "jordi zet me slecht"
-    },
-    {
-      "id": "1768990213592",
-      "author": "Floris",
-      "message": "Ik ben jordi's DAGGOE"
     }
   ]
 }

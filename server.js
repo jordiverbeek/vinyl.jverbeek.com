@@ -1,4 +1,3 @@
-kan je het in mijn server.js bouwen?
 import express from "express";
 import fs from "fs";
 import cors from "cors";
@@ -7,19 +6,28 @@ import path from "path";
 const app = express();
 const PORT = 3000;
 
-// absolute path is VEEL veiliger
 const DATA_FILE = path.resolve("./data.json");
 
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://vinyl.jverbeek.com",
+      "http://localhost:5174"
+    ],
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"]
+  })
+);
+
 app.use(express.json());
 
-// Haal posts op
+// GET posts
 app.get("/api/posts", (req, res) => {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, "utf-8"));
   res.json(data.forumPosts);
 });
 
-// Voeg nieuwe post toe
+// POST post
 app.post("/api/posts", (req, res) => {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, "utf-8"));
 
@@ -30,8 +38,8 @@ app.post("/api/posts", (req, res) => {
   };
 
   data.forumPosts.push(newPost);
-
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+
   res.json(newPost);
 });
 
